@@ -27,3 +27,7 @@ body {
 .hamburger-active > span:nth-child(2) {
   @apply scale-0;
 }
+
+.label-input {
+  @apply absolute left-0 pl-4 text-biru-600 font-semibold tracking-wide cursor-text peer-focus:text-sm peer-focus:-translate-y-4 peer-valid:-translate-y-4 peer-valid:text-sm peer-valid:font-medium peer-focus:font-medium transition duration-500;
+}
